@@ -33,8 +33,8 @@ function ButtonManager(opt_root) {
   var s = fsButton.style;
   s.bottom = 0;
   s.right = 0;
-  fsButton.addEventListener('click', this.createClickHandler_('fs'));
-  root.appendChild(fsButton);
+  // fsButton.addEventListener('click', this.createClickHandler_('fs'));
+  // root.appendChild(fsButton);
   this.fsButton = fsButton;
 
   // Make the VR button.
@@ -43,7 +43,7 @@ function ButtonManager(opt_root) {
   vrButton.title = 'Virtual reality mode';
   var s = vrButton.style;
   s.bottom = 0;
-  s.right = '48px';
+  s.right = 0;
   vrButton.addEventListener('click', this.createClickHandler_('vr'));
   root.appendChild(vrButton);
   this.vrButton = vrButton;
