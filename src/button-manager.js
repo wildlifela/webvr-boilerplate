@@ -32,8 +32,8 @@ function ButtonManager(opt_root) {
   var s = fsButton.style;
   s.bottom = 0;
   s.right = 0;
-  fsButton.addEventListener('click', this.createClickHandler_('fs'));
-  root.appendChild(fsButton);
+  // fsButton.addEventListener('click', this.createClickHandler_('fs'));
+  // root.appendChild(fsButton);
   this.fsButton = fsButton;
 
   // Make the VR button.
